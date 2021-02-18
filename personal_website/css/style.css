@@ -1,9 +1,39 @@
-header {
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+ul {
+    margin: 0;
+    padding: 5;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    width: 100vw;
     background-color: #E3C0D3;
     font-family: 'Ubuntu', sans-serif;
 }
 
+div {
+    margin: 5px;
+    width: 100px;
+    height: 150px;
+}
+
+.image {
+    float: left;
+}
+
 body {
+    padding-top: 40px;
+    margin: 0;
     background-color: #e2b957;
 }
 
